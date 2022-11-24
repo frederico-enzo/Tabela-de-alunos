@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>tabela</title>
+
+</head>
+<body>
+    <section id="main">
+        <article>
+            <h1 class="titulo"  >
+                TABELA DE ALUNOS
+            </h1>
+        </article>
+    </section>
+        <section id="main-two">
+
+        
+        <table id="tabelinha">
+            <tr>
+                <td id="id">ID</td>
+                <td id="Nome">Nome</td>
+                <td id="Curso">Curso</td>
+                <td id=">Emai">E-mail</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="inputs">
+        <input  id="input_Nome" required type="text" placeholder="Nome">
+        <input  id="input_Curso" required type="text" placeholder="Curso">
+        <input  id="input_E-mai" required type="email" placeholder="E-mail">
+        <button id="btn" type="submit" onclick="salvar()" >Salvar</button>
+        <br>
+        
+    </section>
+    <section id="excluir">
+       <input id="inp" type="number" placeholder="id">
+        <button >Excluir</button> 
+    </section>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
